@@ -29,7 +29,7 @@
     <script id="recipe-details-partial" type="text/x-handlebars-template">
       <p id="recipeDescription"> {{ description }}</p>
       <ul>
-        {{ #each ingredients }}
+        {{#each ingredients }}
         {{ displayIngredient this }}
         {{/each }}
       </ul>
