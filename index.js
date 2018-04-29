@@ -48,7 +48,7 @@ function getRecipeVals() {
 		});
 		Handlebars.registerPartial('recipeDetailsPartial', document.getElementsByName("recipe-details-partial").innerHTML);
 		Handlebars.registerPartial('recipeFormPartial', document.getElementById('recipe-form-partial').innerHTML);
-	}
+
 }
 
 function init() {
